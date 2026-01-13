@@ -16,7 +16,7 @@ const LoginScene = ({ onSuccess }: LoginSceneProps) => {
   const [attempts, setAttempts] = useState(0);
 
   const handleLogin = () => {
-    const correctUsername = "Joniko Rafael Sagala";
+    const correctUsername = "Scubaa24";
     const correctPassword = "24062004";
 
     if (username === correctUsername && password === correctPassword) {
