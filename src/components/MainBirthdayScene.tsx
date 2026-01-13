@@ -114,23 +114,31 @@ const MainBirthdayScene = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}
               >
-                Di usia ke-21 ini, semoga semua impianmu semakin dekat,
+                Di usia ke-21 ini, semoga semua impianmu semakin dekat dan pelan-pelan terwujud satu per satu.
               </motion.p>
               <motion.p
-                className="text-lg md:text-xl text-foreground/90 leading-relaxed font-light mt-2"
+                className="text-lg md:text-xl text-foreground/90 leading-relaxed font-light mt-3"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.6 }}
               >
-                senyummu selalu bahagia,
+                Semoga senyummu selalu bahagia, hatimu selalu tenang, dan harimu dipenuhi hal-hal baik.
               </motion.p>
               <motion.p
-                className="text-lg md:text-xl text-primary leading-relaxed font-medium mt-2"
+                className="text-lg md:text-xl text-foreground/90 leading-relaxed font-light mt-3"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.9 }}
               >
-                dan aku ingin selalu ada di setiap langkahmu.
+                Aku ingin selalu ada di setiap langkahmu, menemani saat kamu tertawa, menguatkan saat kamu lelah, dan merayakan setiap pencapaian kecil maupun besar bersamamu.
+              </motion.p>
+              <motion.p
+                className="text-lg md:text-xl text-primary leading-relaxed font-medium mt-4"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 1.2 }}
+              >
+                Selamat ulang tahun ke-21, tetap jadi Leony yang hangat, kuat, dan luar biasa. Aku bangga sama kamu 💖✨
               </motion.p>
             </motion.div>
           )}
