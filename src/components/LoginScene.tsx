@@ -27,7 +27,7 @@ const LoginScene = ({ onSuccess }: LoginSceneProps) => {
       const errorMessages = [
         "Ups… coba ingat orang yang paling mencintaimu 😉",
         "Hmm... siapa ya yang selalu ada untukmu? 💕",
-        "Petunjuk: Nama lengkap + tanggal lahir orang tersayang 💖",
+        "Petunjuk: Nama in-game + tanggal lahir orang tersayang 💖",
         "Coba lagi! Kamu pasti bisa 🌹",
       ];
       setError(errorMessages[Math.min(attempts, errorMessages.length - 1)]);
@@ -110,7 +110,7 @@ const LoginScene = ({ onSuccess }: LoginSceneProps) => {
               <User className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
               <Input
                 type="text"
-                placeholder="Nama lengkap pasangan..."
+                placeholder="Nama in-game cowok kamu..."
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
                 className="pl-12 bg-muted/50 border-muted-foreground/20 text-foreground placeholder:text-muted-foreground/60 h-12 rounded-xl focus:ring-2 focus:ring-primary/50"
@@ -174,7 +174,7 @@ const LoginScene = ({ onSuccess }: LoginSceneProps) => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8 }}
           >
-            💡 Petunjuk: Nama panjang & tanggal lahir orang yang mencintaimu
+            💡 Petunjuk: Nama in-game & tanggal lahir orang yang mencintaimu
           </motion.p>
         </div>
       </motion.div>
