@@ -247,7 +247,7 @@ const ClosingScene = () => {
                   "From someone who will always choose you."
                 </p>
                 <p className="text-primary font-semibold mt-4 text-xl">
-                  — Joniko Rafael Sagala 💖
+                  — Scubaa24 💖
                 </p>
               </motion.div>
 
